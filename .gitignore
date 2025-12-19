@@ -5,3 +5,135 @@ __pycache__
 *.npz
 kitti_data
 models
+
+# ========================================
+# Heavy files to exclude from git
+# ========================================
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.ico
+*.webp
+*.svg
+*.eps
+*.raw
+*.cr2
+*.nef
+*.heic
+*.heif
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpeg
+*.mpg
+*.3gp
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+*.pb
+*.onnx
+*.tflite
+*.caffemodel
+*.prototxt
+
+# Data files
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# Binary and executables
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Large datasets
+*.csv
+*.tsv
+
+# Other large files
+*.iso
+*.dmg
+*.img
+
+# Checkpoint and cache directories
+checkpoints/
+checkpoint/
+weights/
+pretrained/
+cache/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+tensorboard/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
